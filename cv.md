@@ -14,3 +14,9 @@ code Example: #include<stdio.h>
 
 
               }
+
+Experience: some projects from alx school of coding and participation in same challenge of hackerrank
+
+Education: currently student at  university, following some online classes via coursera and introduction of computer science for cs50 with David 
+
+ English: intermediate level 
