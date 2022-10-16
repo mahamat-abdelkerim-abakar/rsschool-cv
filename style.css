@@ -1,0 +1,147 @@
+#bodyX {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    color: black;
+    justify-content: center;
+    background-color:rgba(196, 108, 196, 0.418);
+}
+
+.header-container, .header-navigation {
+    padding: 0px 10px 10px 10px;
+}
+
+.header-container {
+    justify-content:flex-start;
+    padding-top: 70px;
+}
+
+.header-navigation {
+    font-size:larger;
+    align-items:flex-end;
+    justify-content:left;
+    padding-top: 25px;
+    width: auto;
+    color: black;
+}
+
+#header-picture {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+.header-navigation a {
+    text-decoration: none;
+    width: auto;
+    color: black;
+    padding: 0px 30px 0px 0px;
+}
+
+.section-1,
+.section-2 {
+    width: 25%;
+    padding: 20px;
+}
+
+
+.aside-container {
+    width: 25%;
+    padding: 20px;
+}
+
+h2.contacts-list {
+    padding: 20px;
+    margin: auto;
+}
+
+h2#skills {
+    padding: 20px;
+    margin: auto;
+}
+
+ul.contacts {
+    list-style: none;
+}
+
+ul.contacts li {
+    padding: 5px 10px 5px 5px;
+}
+
+ul.skills{
+    padding-left: 60px;
+}
+
+ul.skills li {
+    padding: 5px 10px 5px 5px;
+}
+
+.right-container {
+    width: 75%;
+    padding: 20px;
+    background-color: #c879ca;
+}
+
+.aside-container {
+    background-color:#b45cad;
+
+}
+
+.aside-container, 
+.right-container {
+    padding: 20px;
+}
+
+.footer-container {
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    max-width: 1200px;
+    background-color: brown;
+    justify-content:space-between;
+    background-color:rgba(199, 106, 194, 0.418);
+}
+
+.footer-logo-github {
+    padding: 10px;
+    width: 75px;
+    height: auto;
+}
+
+
+.footer-logo-rs {
+    padding: 10px;
+    width: 100px;
+    height: auto;
+}
+
+time#footer-date {
+    padding-left: 25%;
+    font-size: small;
+}
+
+p a {
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.hidden {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+section {
+    padding: 20px;
+}
