@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mahamat Abdelkerim Abakar</title>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <body id="bodyX">
+    <header class="row g-0 header">
+        <section class="col-3 section-1">
+            <h2 class="hidden">Profile picture</h2>
+            <img id="header-picture" class="img-thumbnail" src="Mahamat.JPG" alt="pic">
+        </section>
+        <section class="col-9 g-0 section-2">
+            <h1 class="row g-0 header-container">Mahamat Abdelkerim Abakar</h1>
+            <nav class="row g-0 header-navigation">
+                <a href="#summary">Summary</a>
+                <a href="#education">Education</a>
+                <a href="#language">Language</a>
+                <a href="#experience">Work Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#code-example">Code Example</a>
+                <a href="#project">Project</a>
+            </nav>
+        </section>
+    </header>
+    <main class="row g-0 main-container">
+         <aside class="col-3 g-0 aside-container">
+            <nav>
+                <h2 class="contacts-list">Contacts</h2>
+                <ul class="contacts">
+                <li>Location: Bangalore, India</li>
+                <li>mahamatabdelkerm863@@gmail.com</li>
+                <li><a href="https://github.com/mahamat-abdelkerim-abakar" target="_blank"><i class="fa fa-github fa-2x"></i>Github</a></li>
+                <li><a href="https://www.linkedin.com/in/https://www.linkedin.com/in/mahamat-abdelkerim-abakar-b11826197//" target="_blank"><i class="fa fa-linkedin fa-2x"></i>Linkedin</a></li>
+                </ul>
+                <h2 id="skills">Skills</h2>
+                <ul class="skills">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Git</li>
+                  <li>GitHub</li>
+                </ul>
+            </nav>
+        </aside>
+        <section class="col-9 g-0 right-container">
+            <h2 class="hidden">Main content</h2>
+            <section class="summary">
+                <h2 id="summary">Summary</h2>
+                <p>I'm Mahamat Abdelkerim Abakar, Chadian I'm a computer scientist in India but I am leraning   in front end development. I'm studying HTML,CSS,JS anddoing my best to become good developer.</p>
+            </section>
+            <section class="education">
+                <h2 id="education">Education</h2>
+                <ul>
+                    <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                </ul>
+            </section>
+          <section class="language">
+                <h2 id="language">Language</h2>
+                <ul>
+                    <li>French: Native</li>
+                  <li><p>English - C1 </p>
+                    </li>
+                    <li>Arabic: Basic</li>
+                </ul>
+            </section>
+          <section class="experience">
+                <h2 id="experience">Work Experience</h2>
+                <p> Designer freelancer from 2020.</p>
+           </section>
+          <section class="code-example">
+                <h2 id="code-example">Code Example</h2>
+                <details>
+                <summary> Target</summary>
+                <pre>
+                    <code>
+                      var line;
+                      var line2;
+                      function start(){
+                          var x=0;
+                          var y=(getHeight()/2);
+                          var x1=getWidth();
+                          var M = getWidth()/2;
+                          var N=0;
+                          var y1=getHeight();
+                          line=new Line(x,y,x1,y);
+                          line2=new Line(M,N,M,y1);
+                          add(line2);
+                          add(line);
+                          mouseMoveMethod(cross);
+                          mouseClickMethod(dot);
+                      }
+                      function dot(e){
+                          var circle=new Circle(10);
+                          circle.setPosition(e.getX(), e.getY());
+                          circle.setColor(Color.red);
+                          add(circle);
+                      }
+                      function cross(e){
+                          line.setPosition(e.getX(),0);
+                          line.setEndpoint(e.getX(),getHeight());
+                          line2.setPosition(0,e.getY());
+                          line2.setEndpoint(getWidth(),e.getY());
+                      }
+                    </code>
+                </pre>
+                </details>
+            </section>
+            <section class="project">
+                <h2 id="project">Project</h2>
+                <ul>
+                  <li><a href="https://codehs.com/share/id/breakout-sDH2vy/run" target="_blank">Run Game</a></li>
+             </ul>
+            </section>
+      </section>
+   </main>
+    <footer class="footer-container">
+        <a href="https://github.com/mahamat-abdelkerim-abakar" target="_blank">
+            <img class="footer-logo-github" src="GT.png" alt="GitHub-Mark"></a>
+        <p><a href="https://app.rs.school/profile#view" target="_blank">Mahamat Abdelkerim Abakar</a><br>
+            <time id="footer-date" datetime="2022-04">© April,2022</time></p>
+      <a href="https://rs.school/js-en/" target="_blank">
+            <img class="footer-logo-rs" src="RS.png" alt="rs_school_js"></a>
+    </footer>
+</body>
+</html>
